@@ -1,0 +1,181 @@
+/* font-family: "CaviarDreamsRegular"; */
+@font-face {
+    font-family: "CaviarDreamsRegular";
+    src: url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.eot");
+    src: url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.woff") format("woff"),
+        url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4 {
+    font-family: "CaviarDreamsRegular", sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul.nav.navbar-nav {
+    width: calc(100% - 150px);
+}
+
+.nav.navbar-nav.button{
+    margin-left: 50px !important;
+}
+
+.section-heading {
+    text-transform: uppercase;
+    padding: 0 !important;
+    text-align: left;
+    font-size: 30px !important;
+    margin: 60px auto 30px !important;
+    font-family: "CaviarDreamsRegular", sans-serif;
+}
+
+.section-heading.light {
+    color: #fff;
+}
+
+
+
+.section-heading span {
+    padding: 1px 0;
+    border-bottom: 2px solid #a83135;
+}
+
+.section-heading.light span {
+    padding: 1px 0;
+    border-bottom: 2px solid #cecece;
+}
+
+.section-heading:after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #ca3f43;
+    content: "";
+}
+
+.section-heading.light:after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+}
+
+.description ul {
+    text-align: left;
+    font-size: 16px;
+}
+
+.description ul li {
+    list-style: disc;
+    color: #ca3f43;
+}
+
+.description ul li span {
+    color: #fff;
+}
+
+.num-circle {
+    position: absolute;
+    margin: -75px 33%;
+    width: 110px;
+    height: 110px;
+    border-radius: 500px;
+    background: #fff;
+    font-size: 50px;
+    font-family: "CaviarDreamsRegular", sans-serif;
+    padding: 15px;
+}
+
+.card-up {
+    height: 90%;
+}
+
+.card-block {
+    padding-top: 30px;
+}
+
+img.back {
+    display: block;
+    margin: 0 auto;
+    padding: 0 !important;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: none !important;
+}
+
+.rotate-btn {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    color: #3d7cb7 !important;
+    z-index: 1;
+}
+
+.gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,ffffff+100&0+0,1+100 */
+    background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+.text-block {
+    margin: 30px auto 10px;
+    border-radius: 5px;
+    background: #ececec;
+    box-shadow: 0 2px 0 0 rgba(206,206,206,1);
+}
+
+p.text {
+    font-size: 18px;
+    color: #777777;
+    padding: 30px 20px 0;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.heart {
+    text-align: center;
+    color: #ca3f43;
+    font-size: 24px;
+    padding: 0 0 20px;
+}
+
+.section-description {
+    text-align: left !important;
+    margin: 20px 0 !important;
+}
+
+.card-overlay {
+    height: 450px;
+}
+
+.card-name {
+    position: absolute;
+    bottom: -70px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
