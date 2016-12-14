@@ -16,6 +16,12 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    font-family: "CaviarDreamsRegular", sans-serif;
+    /*text-transform: uppercase;*/
+    font-size: 16px;
+}
+
 h4 {
     font-family: "CaviarDreamsRegular", sans-serif;
     font-size: 20px;
@@ -39,7 +45,7 @@ ul.nav.navbar-nav {
 
 }
 
-#buy input {
+#buy input, #price input {
 
     background: #ca3f43;
     font-family: "CaviarDreamsRegular", sans-serif;
@@ -67,46 +73,58 @@ ul.nav.navbar-nav {
 }
 
 .section-heading span {
-    padding: 1px 0;
-    border-bottom: 2px solid #a83135;
+    box-shadow: 0 2px 0 0 #a83135;
+    border-bottom: 2px solid #ca3f43;
 }
 
 .section-heading.light span {
-    padding: 1px 0;
-    border-bottom: 2px solid #cecece;
-}
+    box-shadow: 0 2px 0 0 #cecece;
+    border-bottom: 2px solid #ececec;
 
+}
 .section-heading:after {
-    position: absolute;
+    position: relative;
     display: block;
-    left: 0;
-    width: 50%;
+    right: 100%;
+    top: 1px;
     height: 2px;
     background-color: #ca3f43;
     content: "";
 }
 
 .section-heading.light:after {
-    position: absolute;
+    position: relative;
     display: block;
-    left: 0;
-    width: 50%;
+    right: 100%;
+    top: 1px;
     height: 2px;
-    background-color: #fff;
+    background-color: #ececec;
     content: "";
 }
 
-.description ul {
+.title .section-heading.light:after {
+    position: relative;
+    display: block;
+    left: 100px;
+    width: 1000%;
+    height: 2px;
+    background-color: #ececec;
+    content: "";
+} 
+
+ul.desc {
+    margin-top: -30px;
     text-align: left;
     font-size: 16px;
 }
 
-.description ul li {
+ul.desc li {
     list-style: disc;
     color: #ca3f43;
+    margin-bottom: 10px;
 }
 
-.description ul li span {
+ul.desc li span {
     color: #fff;
 }
 
@@ -211,7 +229,7 @@ span.bold {
     margin: 20px 0 !important;
 }
 
-.card-overlay {
+.card-overlay.template {
     height: 450px;
 }
 
@@ -238,6 +256,15 @@ span.bold {
     right: 0;
     padding: 20px;
     background: url(../img/bg-2.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+#contacts-page {
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: url(../img/bg-4.jpg);
     background-size: cover;
     z-index: -1;
 }
@@ -296,6 +323,18 @@ img.speed.label {
 
 .row.nomargin {
     margin-bottom: 0;
+}
+
+.margin15 {
+    margin-bottom: 15px;
+}
+
+.margin50 {
+    margin-bottom: 50px;
+}
+
+.margin- {
+    margin-top: -52px;
 }
 
 img.icon {
@@ -368,4 +407,92 @@ img.cart {
     width: 30px;
     display: inline;
     margin: -10px 20px -7px 0;
+}
+
+.wrap p,
+.wrap h4 {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wrap h4 {
+    padding-bottom: 0;
+}
+
+.wrap.left {
+    position: relative;
+    right: 20px;  
+}
+
+.wrap.right {
+    position: relative;
+    left: 20px;
+}
+
+.wrap.left img {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.wrap.right img {
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+
+.wrap.gray {
+    background: #ececec;
+    border-radius: 2px;
+}
+
+.wrap.green {
+    background: #25ae88!important;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.wrap.red {
+    background: #ca3f43!important;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.wrap.blue {
+    background: #3d7cb7!important;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.mdb-color {
+    background: #3d7cb7!important;
+}
+
+.btn-mdb.red {
+    background: #ca3f43!important;
+}
+
+footer {
+    margin-top: 0!important;
+}
+
+.card {
+    margin-top: 60px;
+}
+
+.title, .img-block {
+    margin-top: 60px;
+    padding: 30px 0;
+}
+
+.img-block img {
+    margin: 20px 0;
+}
+
+.hm-black-strong .full-bg-img {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+65 */
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 65%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
 }
