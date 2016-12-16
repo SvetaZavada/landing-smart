@@ -52,6 +52,10 @@ p {
     font-size: 14px;
 }
 
+header {
+    height: auto!important;
+}
+
 .clear {
     clear: both;
 }
@@ -72,6 +76,10 @@ ul.nav.navbar-nav {
     font-family: "CaviarDreamsRegular", sans-serif;
     text-transform: uppercase;
     padding: 10px;
+}
+
+#buy .btn, #price .btn {    
+    box-shadow: 0 2px 0 0 #a83135;
 }
 
 .text-xs-center .btn {
@@ -298,6 +306,15 @@ span.bold {
     z-index: -1;
 }
 
+#characteristics {
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: url(../img/bg-main.jpg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;    
+}
+
 .feature-title {
     text-align: center;
 }
@@ -425,10 +442,12 @@ img.cart {
     display: block;
     margin: auto;
     max-width: 60%;
+    box-shadow: 0 2px 0 0 #cecece;
+
 }
 
 .google:hover {
-    background: #fbfbfb !important;
+    box-shadow: 0 2px 0 0 #cecece!important;
 }
 
 .google img {
@@ -516,6 +535,7 @@ footer {
 
 .img-block img {
     margin: 20px 0;
+    box-shadow: none;
 }
 
 .img-block h2 {

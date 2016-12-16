@@ -41,7 +41,7 @@
             }
 
             .top-nav-collapse {
-                background-color: #2E2E2E;
+                background-color: rgba(0,0,0,.9);
             }
 
             @media only screen and (max-width: 768px) {
@@ -110,22 +110,22 @@
                         <!--Links-->
                         <ul class="nav navbar-nav smooth-scroll">
                             <li class="nav-item">
-                                <a class="nav-link" href="#design">Оформление<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#design">Оформление</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#examples-of-design">Примеры оформления</a>
+                                <a class="nav-link" href="#examples">Примеры оформления</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#adaptability">Адаптивность</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#product-page">Страница товара</a>
+                                <a class="nav-link" href="#product">Страница товара</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#category-page">Страница категории</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#cart-page">Корзина</a>
+                                <a class="nav-link" href="#cart">Корзина</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#performance">Производительность</a>
@@ -154,24 +154,26 @@
 
             </nav>
             <!--/.Navbar-->
+        </header>
 
-            <!--Mask-->
-            <div class="view hm-black-strong">
-                <div class="full-bg-img flex-center">
+
+        <!--/Navigation & Intro-->
+        
+        <div  id="characteristics">
+            <div class="grad">
+            <div class="container">
+
+                <section class="section">
                     <div class="container">
                         <div class="row">
-
                             <!--First column-->
-
-
-
-
                             <div class="col-lg-5 offset-lg-1">
                                 <!--Form-->
                                 <div class="img-block">
-                                    <img class="logo " src="../img/wa-logo.png">
-                                    <img class="logo " src="../img/smart-logo.png">
-                                </div>                 
+                                    <img class="logo" src="../img/wa-logo.png">
+                                    <h2><img class="logo " src="../img/smart-logo.png">     — тема дизайна</h2>
+                                </div>    
+
                                 <!--/.Form-->
                             </div>
                             <!--/.First column-->
@@ -208,24 +210,26 @@
                                 <!--/.Form-->
                             </div>
                             <!--/Second column-->
+
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-            <!--/.Mask-->
-
-        </header>
-        <!--/Navigation & Intro-->
+        </div>
+        </div>
 
         <!--Main layout-->
         <main>
             <div class="container">
 
                 <!--Section: Team v.5-->
-                <section class="section" id="design">
+
+                <section class="section">
+
 
                     <!--Section heading-->
                     <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s"><span>Оформление</span></h1>
+                    <div id="design" class="anchor"></div>
 
 
                     <div class="row">
@@ -381,14 +385,17 @@
                 <!--/Section: Team v.5-->
             </div>
             <!--Projects section v.1-->
+
             <div  id="examples-of-design">
                 <div class="container">
+
                     <section class="section">
 
 
 
                         <!--Section heading-->
                         <h1 class="section-heading light wow fadeIn" data-wow-delay="0.2s"><span>Примеры оформления</span></h1>
+                        <div id="examples" class="anchor"></div>
                         <!--Section description-->
                         <p class="section-description light wow fadeIn" data-wow-delay="0.4s">Тут представленные лишь некоторые возможные варианты того, как может выглядеть Ваш сайт с темой дизайна SMART,
                             на самом деле различных вариантов намного больше.</p>
@@ -544,10 +551,12 @@
             <!--/Projects section v.1-->
             <div class="container">
                 <!--Section: Features v.4-->
-                <section class="section feature-box" id="adaptability">
+
+                <section class="section feature-box" >
 
                     <!--Section heading-->
                     <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s"><span>Адаптивность</span></h1>
+                    <div id="adaptability" class="anchor"></div>
                     <!--Section description-->
 
                     <div class="text-block">
@@ -649,12 +658,14 @@
             <!--Projects section v.1-->
             <div  id="product-page">
                 <div class="container">
+
                     <section class="section">
 
 
 
                         <!--Section heading-->
                         <h1 class="section-heading light wow fadeIn" data-wow-delay="0.2s"><span>Страница товара</span></h1>
+                        <div id="product" class="anchor"></div>
                         <!--Section description-->
                         <p class="section-description light wow fadeIn" data-wow-delay="0.4s">Оформление страницы товара позволяет покупателю максимально подробно ознакомиться с товаром.</p>
 
@@ -724,11 +735,12 @@
             <!--/Projects section v.1-->
             <div class="container">
                 <!--Section: Features v.4-->
-                <section class="section feature-box" id="category-page">
+
+                <section class="section feature-box" >
 
                     <!--Section heading-->
                     <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s"><span>Страница категории</span></h1>
-
+                    <div id="category-page" class="anchor"></div>
                     <!--Section sub-heading-->
                     <h2 class="section-sub-heading wow fadeIn" data-wow-delay="0.2s"><span>Режимы отображения</span></h2>
 
@@ -890,13 +902,14 @@
             </div>
             <div  id="cart-page">
                 <div class="container">
+
                     <section class="section">
 
 
 
                         <!--Section heading-->
                         <h1 class="section-heading light wow fadeIn" data-wow-delay="0.2s"><span>Корзина</span></h1>
-
+                        <div id="cart" class="anchor"></div>
                         <!--First row-->
                         <div class="row features-small">
 
@@ -958,11 +971,12 @@
                 </div>
             </div>
             <div class="container">
-                <section class="section" id="performance">
+
+                <section class="section" >
 
                     <!--Section heading-->
                     <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s"><span>Производительность</span></h1>
-
+                    <div id="performance" class="anchor"></div>
                     <!--Second column-->
                     <div class="col-md-8 m-b-r center-on-small-only wow fadeIn" data-wow-delay="0.2s">
                         <img src="../img/speed.png" alt="" class="z-depth-0">
@@ -981,7 +995,7 @@
                                     <h4 class="feature-title">Правильная HTML-разметка</h4>
                                     <p class="grey-text">Благодаря корректной HTML-разметке в теме дизайна Smart отсутствует код, блокирующий немедленное отображение верхней части страницы. </p>
                                     <p class="grey-text">Сервис Google, оценивающий скорость загрузки сайта, приветствует соблюдение данной рекомендации и учитывает данный фактор при ранжировании в поисковой выдаче:</p>
-                                    <a class="btn btn-mdb btn-lg google"> <img class="" src="../img/google.png">Подробнее</a>
+                                    <a class="btn btn-lg google"> <img class="" src="../img/google.png">Подробнее</a>
                                     <div style="height:30px"></div>
                                 </div>
                             </div>
@@ -1060,10 +1074,12 @@
                 </section>
 
                 <!--Section: Testimonials v.4-->
-                <section class="section" id="tools">
+
+                <section class="section" >
 
                     <!--Section heading-->
                     <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s"><span>Инструменты повышения продаж </span></h1>
+                    <div id="tools" class="anchor"></div>
 
                     <!--Section sub-heading-->
                     <h2 class="section-sub-heading wow fadeIn" data-wow-delay="0.2s"><span>Баннеры и текстовые блоки</span></h2>
@@ -1252,10 +1268,12 @@
 
 
                 <!--Section: Pricing v.5-->
-                <section class="section" id="pricing">
+
+                <section class="section" >
 
                     <!--Section heading-->
                     <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s"><span>Стоимость</span></h1>
+                    <div id="pricing" class="anchor"></div>
 
                     <!--First row-->
                     <div class="row">
@@ -1287,19 +1305,19 @@
                                                 <h3>100% адаптивный дизайн</h3>
                                             </li>
                                             <li>
-                                                <h3>«чистый» оптимизированный код</h3>
+                                                <h3>«Чистый» оптимизированный код</h3>
                                             </li>
                                             <li>
-                                                <h3>готовые цветовые решения</h3>
+                                                <h3>Готовые цветовые решения</h3>
                                             </li>
                                             <li>
-                                                <h3>встроенный функционал</h3>
+                                                <h3>Встроенный функционал</h3>
                                             </li>
                                             <li>
-                                                <h3>более 300 настроек</h3>
+                                                <h3>Более 300 настроек</h3>
                                             </li>
                                             <li>
-                                                <h3>виджеты соцсетей</h3>
+                                                <h3>Виджеты соцсетей</h3>
                                             </li>
                                         </ul>
                                         <div class="nav navbar-nav button " id="price">                
@@ -1328,10 +1346,12 @@
                 <!--/Section: Pricing v.5-->
 
                 <!--Section: Testimonials v.4-->
-                <section class="section" id="testimonials">
+
+                <section class="section" >
 
                     <!--Section heading-->
                     <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s"><span>Отзывы</span></h1>
+                    <div id="testimonials" class="anchor"></div>
 
                     <div class="row">
                         <!--Carousel Wrapper-->
@@ -1573,7 +1593,8 @@
             <div  id="contacts-page">
                 <div class="container">
                     <!--Section: Contact v.1-->
-                    <section class="section mb-4" id="contact">
+
+                    <section class="section mb-4" >
 
                         <!--Section heading-->
                         <!--Section description-->
@@ -1587,7 +1608,9 @@
 
                                 <div class="card">
 
+
                                     <div class="card-block">
+                                        <div id="contact" class="anchor"></div>
                                         <!--Header-->
                                         <div class="form-header mdb-color">
                                             <h4><i class="fa fa-envelope"></i> Обратная связь</h4>
@@ -1647,98 +1670,11 @@
         <!--Footer: CTA, Social Media, Additional Info & Links-->
         <footer class="page-footer center-on-small-only">
 
-            <!--Footer Links-->
-            <div class="container-fluid">
-                <div class="row">
-
-                    <!--First column-->
-                    <div class="col-md-3 offset-md-1">
-                        <h5 class="title">ABOUT MATERIAL DESIGN</h5>
-                        <br>
-                        <p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
-
-                        <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
-                    </div>
-                    <!--/.First column-->
-
-                    <hr class="hidden-md-up">
-
-                    <!--Second column-->
-                    <div class="col-md-2 offset-md-1">
-                        <h5 class="title">Links</h5>
-                        <ul>
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                    <!--/.Second column-->
-
-                    <hr class="hidden-md-up">
-
-                    <!--Third column-->
-                    <div class="col-md-2">
-                        <h5 class="title">Links</h5>
-                        <ul>
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                    <!--/.Third column-->
-
-                    <hr class="hidden-md-up">
-
-                    <!--Fourth column-->
-                    <div class="col-md-2">
-                        <h5 class="title">Links</h5>
-                        <ul>
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                    <!--/.Fourth column-->
-
-                </div>
-            </div>
-            <!--/.Footer Links-->
-
-            <hr>
-
-            <!--Call to action-->
-            <div class="call-to-action">
-                <ul>
-                    <li>
-                        <h5>Register for free</h5></li>
-                    <li><a href="" class="btn btn-danger">Sign up!</a></li>
-                </ul>
-            </div>
-            <!--/.Call to action-->
-
-            <hr>
-
-            <!--Social buttons-->
-            <div class="social-section">
-                <ul>
-                    <li><a href="https://www.facebook.com/mdbootstrap" target="_blank" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"> </i></a></li>
-                    <li><a href="https://twitter.com/MDBootstrap" target="_blank" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"> </i></a></li>
-                    <li><a href="https://plus.google.com/u/0/+Mdbootstrap" target="_blank" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
-                    <li><a href="https://www.linkedin.com/in/dawid-adach-97435534/pl" target="_blank" class="btn-floating btn-small btn-li"><i class="fa fa-linkedin"> </i></a></li>
-                    <li><a class="btn-floating btn-small btn-git"><i class="fa fa-github"> </i></a></li>
-                    <li><a href="https://pl.pinterest.com/materialdesignf/" target="_blank" class="btn-floating btn-small btn-pin"><i class="fa fa-pinterest"> </i></a></li>
-                    <li><a href="https://www.instagram.com/mdbootstrap/" target="_blank" class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"> </i></a></li>
-                </ul>
-            </div>
-            <!--/.Social buttons-->
 
             <!--Copyright-->
             <div class="footer-copyright">
                 <div class="container-fluid">
-                    © 2015 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+                    © 2016 Copyright: <a href="http://www.MDBootstrap.com"> WA-PLUGINS.ru</a>
 
                 </div>
             </div>
