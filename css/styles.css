@@ -167,6 +167,7 @@ ul.desc li {
 
 ul.desc li span {
     color: #fff;
+    text-shadow: 0 0 10px #000, 0 0 20px #111, 0 0 30px #222, 0 0 40px #333, 0 0 100px #444;
 }
 
 .num-circle {
@@ -581,6 +582,6 @@ footer {
     content: "";    
 }
 
-.top-nav-collapse {
-    background-color: rgba(0,0,0,.9);
+.card-wrapper {
+    height: 600px;
 }
