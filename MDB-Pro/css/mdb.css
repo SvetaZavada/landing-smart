@@ -2915,6 +2915,7 @@ body.modal-open {
 
 body {
   overflow: auto !important;
+  overflow-x: hidden;
 }
 
 .card-columns .card {

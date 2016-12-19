@@ -23,10 +23,6 @@
     }
 }
 
-@media (max-width: 995px) {
-    
-}
-
 @media (max-width: 575px) {
     .anchor {
         position:relative; 
@@ -34,6 +30,9 @@
     }
 }
 
+body {
+    overflow-x: hidden !important;
+}
 
 h2 {
     font-family: "CaviarDreamsRegular", sans-serif;
@@ -147,22 +146,17 @@ ul.nav.navbar-nav {
 .title .section-heading.light:after {
     position: relative;
     display: block;
-    left: 100px;
+    left: 0px;
     width: 1000%;
     height: 2px;
     background-color: #ececec;
     content: "";
-} 
-
-.title {
-    text-shadow: 0 0 10px #000, 0 0 20px #111, 0 0 30px #222, 0 0 40px #333, 0 0 100px #444;
 }
 
 ul.desc {
     margin-top: -30px;
     text-align: left;
     font-size: 16px;
-    text-shadow: 0 0 10px #000, 0 0 20px #111, 0 0 30px #222, 0 0 40px #333, 0 0 100px #444;
 }
 
 ul.desc li {
