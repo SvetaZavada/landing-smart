@@ -6,7 +6,6 @@
 
 $(function () {
     $('.lazy').lazy({
-        placeholder: "../img/grey.gif",
-        threshold : 200
+        placeholder: "../img/grey.gif"
     });
 });
