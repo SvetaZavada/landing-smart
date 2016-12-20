@@ -219,7 +219,6 @@ img.back {
     left: 0;
     height: 100%;
     width: 100%;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,ffffff+100&0+0,1+100 */
     background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -566,7 +565,6 @@ footer {
 }
 
 .hm-black-strong .full-bg-img {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+65 */
     background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 65%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -587,7 +585,9 @@ footer {
 }
 
 .lazy {
-        max-width: 100%; 
-        height: auto; 
-        display: block;
-    }
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+
