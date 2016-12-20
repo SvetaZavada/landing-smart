@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 
-$(function() {
-        //$('.lazy').Lazy();
-        alert("Спасибо за посещение!");
-
+$(function () {
+    $('.lazy').lazy({
+        placeholder: "../img/grey.gif"
     });
+});
